@@ -1,0 +1,93 @@
+site_name: CanElevation Documentation
+site_description: Comprehensive guides and examples for working with Canadian elevation data
+site_url: https://nrcan.github.io/CanElevation/
+repo_url: https://github.com/NRCan/CanElevation
+repo_name: NRCan/CanElevation
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  features:
+    #- navigation.tabs
+    #- navigation.sections
+    #- navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+          nav_translations:
+            Home: Accueil
+            Point Clouds: Nuages de points
+            Generate a DEM: Générer un MNE
+            Get Projects and Tiles by AOI: Obtenir les projets et les tuiles d'une région
+            QGIS Interactive Guide: Utilisation intéractive dans QGIS
+            Vertical Transformations: Transformations verticales
+            Environment Setup: Préparation de l'environnement
+            Raster Transformations: Transformations matricielles
+            Point Cloud Transformations: Transformations de nuages de points
+            Overview: Aperçu
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Point Clouds:
+    - Overview: pointclouds/index.md
+    - Generate a DEM: pointclouds/dem-from-copc-lidar.md
+    - Get Projects and Tiles by AOI: pointclouds/projects-tiles-by-aoi.md
+    - QGIS Interactive Guide: pointclouds/qgis-interactive.md
+  - Vertical Transformations:
+    - Overview: vertical-transformations/index.md
+    - Environment Setup: vertical-transformations/environment-setup.md
+    - Raster Transformations: vertical-transformations/raster-transformations.md
+    - Point Cloud Transformations: vertical-transformations/pointcloud-transformations.md
+
+extra:
+  alternate:
+    - name: English
+      link: ./
+      lang: en
+    - name: Français  
+      link: ./fr/
+      lang: fr

@@ -1,0 +1,13 @@
+# mkdocs-local.yml
+INHERIT: mkdocs.yml
+
+site_url: http://127.0.0.1:8000/CanElevation
+
+extra:
+  alternate:
+    - name: English
+      link: /CanElevation/
+      lang: en
+    - name: Français
+      link: /CanElevation/fr/
+      lang: fr
