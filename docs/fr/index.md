@@ -7,6 +7,8 @@ Bienvenue dans la documentation de la série CanÉlévation. Ce site fournit des
 * [Nuages de points](pointclouds/index.md) - Exemples d'utilisation des données de nuages de points LiDAR
 * [Mosaïques MNE via STAC](stac-dem-mosaics/index.md) - Accéder aux mosaïques MNE CanElevation via STAC
 * [Transformations verticales](vertical-transformations/index.md) - Guides pour les transformations de datums verticaux
+* [Couche optimisée des bâtiments](optimized_building_footprint/index.md) - Guider pour l'utilisation de la couche optimisée des bâtiment en format GeoParquet. 
+
 
 ## À propos de CanÉlévation
 

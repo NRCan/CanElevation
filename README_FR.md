@@ -8,7 +8,7 @@ Le dépôt CanElevation fournit une documentation complète, des exemples et des
 
 ## Aperçu
 
-Ce dépôt contient :
+Ce dépôt contient  :
 
 - **Notebooks Jupyter interactifs** - Tutoriels étape par étape pour le traitement des données d'élévation
 - **Documentation** - Guides complets en français et en anglais
@@ -33,6 +33,16 @@ Ce dépôt contient :
 - Conversion entre les datums verticaux canadiens (CGVD2013, CGVD28)
 - Transformations basées sur des rasters
 - Conversions de datums et d'époque pour nuages de points
+
+### Utilisation du GeoParquet de la couche optimisée des bâtiments
+
+- Apprenez à utiliser le GeoParquet de la couche optimisée des bâtiments à l'aide de Python et GDAL.
+- Visualisez la couche à l'aide de QGIS.
+
+*English version:*
+   - [Python & GDAL Access](docs/en/optimized_building_footprint/python-gdal-access.md)
+   - [QGIS Access](docs/en/optimized_building_footprint/qgis-access.md)
+  
 
 ## 📖 Documentation
 
@@ -72,4 +82,5 @@ Ce projet est sous licence de la [License du gouvernement ouvert – Canada](htt
 
 Pour des questions ou du support :
 - 📖 Consultez la [documentation](https://nrcan.github.io/CanElevation/)
+
 - 🐛 Signalez les problèmes sur [GitHub Issues](https://github.com/NRCan/CanElevation/issues)

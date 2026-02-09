@@ -7,6 +7,7 @@ Welcome to the CanElevation Series documentation. This site provides comprehensi
 * [Point Clouds](pointclouds/index.md) - Usage examples for LiDAR point cloud data
 * [STAC DEM Mosaics](stac-dem-mosaics/index.md) - Access CanElevation's DEM mosaics via STAC
 * [Vertical Transformations](vertical-transformations/index.md) - Guides for vertical datum transformations
+* [Optimized Building Layer](optimized_building_footprint/index.md) - Guide for using the optimized building layer in GeoParquet format. 
 
 ## About CanElevation
 

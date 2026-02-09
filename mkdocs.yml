@@ -60,6 +60,9 @@ plugins:
             Raster Transformations: Transformations matricielles
             Point Cloud Transformations: Transformations de nuages de points
             Overview: Aperçu
+            Optimized Building Footprints: Empreintes de bâtiments optimisées
+            Python & GDAL Access: Utilisation avec Python et GDAL
+            QGIS Access: Utilisation avec QGIS
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -91,7 +94,11 @@ nav:
     - Environment Setup: vertical-transformations/environment-setup.md
     - Raster Transformations: vertical-transformations/raster-transformations.md
     - Point Cloud Transformations: vertical-transformations/pointcloud-transformations.md
-
+  - Optimized Building Footprints:
+    - Overview: optimized_building_footprint/index.md
+    - Python & GDAL Access: optimized_building_footprint/acces-python-gdal.md
+    - QGIS Access: optimized_building_footprint/acces-qgis.md
+ 
 extra:
   alternate:
     - name: English
@@ -101,3 +108,5 @@ extra:
       link: ./fr/
 
       lang: fr
+
+
